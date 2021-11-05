@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo su
+sudo apt install apache2
+sudo -I
+sudo systemctl start apache2
+sudo chmod a+w /var/www/html
+curl https://raw.githubusercontent.com/ISURYAVANSHI/PHPFiles/main/MyPhotos.php > /var/www/html/MyPhotos.php
