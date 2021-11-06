@@ -10,6 +10,10 @@ sudo apt-get install php7.2-xml
 sudo apt-get install php7.2-cli
 sudo apt-get  install composer
 sudo chmod a+w /var/www/html
+cd /var/www/html
+sudo apt-get install composer
+sudo composer update
+cd /
 curl https://raw.githubusercontent.com/ISURYAVANSHI/PHPFiles/main/MyPhotos.php > /var/www/html/MyPhotos.php
 curl https://raw.githubusercontent.com/ISURYAVANSHI/PHPFiles/main/composer.json > /var/www/html/composer.json
-sudo composer update
+
